@@ -46,7 +46,7 @@ const contact = () => {
                 {/* <link rel="icon" href="/public/images/profile/My pic.png" /> */}
             </Head>
             <TransitionEffect />
-            <dialog id="my_modal_5" className="modal modal-bottom sm:modal-middle">
+            <dialog id="my_modal_5" className="modal sm:modal-bottom modal-middle">
   <form method="dialog" className="modal-box">
     <h3 className="font-bold text-lg">Successful!</h3>
     <p className="py-4">Your query has been submitted</p>
@@ -62,11 +62,11 @@ const contact = () => {
 <div className='flex mx-auto py-32 text-center min-[1280px]:text-left
             items-center justify-center h-full bg-white dark:bg-gray-900 rounded-2xl'>
                 <div className='flex flex-col w-full max-w-[700px] '>
-                <h2 className='text-4xl text-dark dark:text-white pb-10 font-bold'>Let's Get in Touch</h2>
+                <h2 className='text-4xl text-dark dark:text-white pb-10 font-bold'>Let&#39;s Get in Touch</h2>
                 <form onSubmit={(event)=>submit(event)} className='flex flex-col gap-6 w-full mx-auto'>
                     <div className='flex sm:flex-col sm:px-4 sm:gap-y-6 gap-x-6 w-full'>
                         <input type="text" required placeholder='name' className=' w-full h-[52px] rounded-lg pl-6 capitalize bg-gray-100 focus:ring-1 focus:ring-dark border border-white/20 placeholder:text-black placeholder:font-mont'  />
-                        <input type="email" required placeholder='email' className='w-full h-[52px] rounded-lg pl-6 capitalize bg-gray-100 focus:ring-1 focus:ring-dark border border-white/20 placeholder:text-black placeholder:font-mont'  />
+                        <input type="email" required placeholder='email' className='w-full h-[52px] rounded-lg pl-6 bg-gray-100 focus:ring-1 focus:ring-dark border border-white/20 placeholder:text-black placeholder:font-mont'  />
                     </div>
             <div className='sm:px-4'>
             <input type="text" placeholder='subject' required className='w-full sm:px-4 h-[52px] rounded-lg pl-6 capitalize bg-gray-100 focus:ring-1 focus:ring-dark border border-white/20 placeholder:text-black placeholder:font-mont'  />

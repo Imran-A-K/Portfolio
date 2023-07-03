@@ -47,7 +47,7 @@ const About = () => {
                             </p>
 
                             <p className="my-8 font-medium">
-                                I think that design is about more than just making things look pretty – it's about solving problems and creating intuitive, enjoyable experiences for users.
+                                I think that design is about more than just making things look pretty – it&#39;s about solving problems and creating intuitive, enjoyable experiences for users.
                             </p>
                             <p className="font-medium ">
                                 I am dedicated to delivering design excellence and user-centric thinking to every digital project I undertake, whether it&apos;s a website or any other digital product. I am excited about the prospect of applying my skills and passion to your next endeavor.
